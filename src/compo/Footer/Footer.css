@@ -1,0 +1,33 @@
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 2rem;
+    background-color: #8f1f57ea;
+    color: white;
+  }
+  .foot ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+  .foot p{
+    width: 80%;
+  }
+  a{
+    padding: 10px;
+    font-weight: bold;
+  }
+  a:hover{
+    color: blue;
+    cursor: pointer;
+  
+  }
+  button:hover{
+    background-color: blanchedalmond;
+    color: black;
+   
+  }
